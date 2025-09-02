@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora e Data Atuais</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Introdução ao Python</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo!</h1>
-        <p>A data e a hora atuais são:</p>
-        <p class="datetime">{{ datetime }}</p>
-    </div>
+    <header>
+        <div class="container">
+            <h1>Python para Iniciantes</h1>
+            <p>O jeito mais fácil de começar a programar</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="o-que-e">
+            <div class="container">
+                <h2>O que é Python?</h2>
+                <p>Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos e funcional. Ela se destaca pela sua sintaxe simples e legível, o que a torna ideal para iniciantes.</p>
+                <p>É uma linguagem versátil e usada em diversas áreas, como:</p>
+                <ul>
+                    <li>Desenvolvimento Web (frameworks como Django e Flask)</li>
+                    <li>Ciência de Dados e Inteligência Artificial (bibliotecas como Pandas e NumPy)</li>
+                    <li>Automação de Tarefas</li>
+                    <li>Desenvolvimento de Jogos</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="por-que-aprender">
+            <div class="container">
+                <h2>Por que aprender Python?</h2>
+                <p>Aprender Python abre um mundo de oportunidades. Sua sintaxe clara permite que você se concentre na lógica do problema, em vez de se preocupar com detalhes complexos da linguagem. Além disso, a comunidade Python é enorme e muito ativa, oferecendo suporte e uma vasta quantidade de recursos.</p>
+            </div>
+        </section>
+
+        <section id="primeiro-codigo">
+            <div class="container">
+                <h2>Seu Primeiro Código: "Olá, Mundo!"</h2>
+                <p>Vamos escrever o código mais famoso de todos. Copie e cole o código abaixo em um arquivo com a extensão `.py` e execute-o.</p>
+                <div class="code-block">
+                    <code>print("Olá, Mundo!")</code>
+                </div>
+                <p>Ao rodar o código, a frase "Olá, Mundo!" será exibida na tela. Simples assim!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Introdução ao Python. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
